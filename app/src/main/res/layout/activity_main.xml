@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAB4E0"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+   <Button
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/btn1"
+       android:background="@drawable/background_"
+       android:text="Music player"
+       android:textSize="30dp"
+       android:fontFamily="cursive"
+       android:textStyle="bold"
+       android:layout_gravity="center"
+       android:layout_marginTop="280dp"
+       />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:background="@drawable/background_"
+        android:text="vedio player"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
